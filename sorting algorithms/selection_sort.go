@@ -1,8 +1,8 @@
 package main
 import "fmt"
 
-func Swap(vetor []int, atual int, min int) {
-    vetor[atual], vetor[min] = vetor[min], vetor[atual]
+func Swap(vetor []int, pivo int, idx_min int) {
+    vetor[pivo], vetor[idx_min] = vetor[idx_min], vetor[pivo]
 }
 
 func Selection_Sort(vetor []int){
